@@ -2,8 +2,8 @@
   "name": "scratch-starter-project",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "webpack serve --config webpack.dev.js",
+ "scripts": {
+    "start": "serve -s build -l $PORT",
     "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {
